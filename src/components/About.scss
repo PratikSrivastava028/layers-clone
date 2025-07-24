@@ -1,0 +1,51 @@
+.about-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 60px 80px;
+  background-color: #0a0a0a;
+  color: #fff;
+
+  .about-content {
+    flex: 1;
+    padding-right: 40px;
+
+    h2 {
+      font-size: 2.5rem;
+      margin-bottom: 20px;
+    }
+
+    p {
+      font-size: 1.2rem;
+      line-height: 1.6;
+      color: #ccc;
+    }
+  }
+
+  .about-image {
+    flex: 1;
+
+    img {
+      width: 100%;
+      max-width: 500px;
+      height: auto;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .about-section {
+    flex-direction: column;
+    padding: 40px 20px;
+
+    .about-content {
+      padding-right: 0;
+      margin-bottom: 30px;
+      text-align: center;
+    }
+
+    .about-image img {
+      max-width: 100%;
+    }
+  }
+}

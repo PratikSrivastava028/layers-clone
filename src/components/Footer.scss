@@ -1,0 +1,44 @@
+.footer {
+  background-color: #0f1113;
+  color: #eee;
+  position: relative;
+  padding-top: 0;
+
+  .footer-wave {
+    position: relative;
+    width: 100%;
+    height: 100px;
+    overflow: hidden;
+    svg {
+      display: block;
+      width: 100%;
+      height: 100px;
+    }
+  }
+
+  .footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 3rem 2rem;
+    text-align: center;
+
+    .footer-logo {
+      font-size: 1.8rem;
+      font-weight: bold;
+      color: #fff;
+      margin-bottom: 1rem;
+    }
+
+    p {
+      font-size: 0.95rem;
+      margin: 0.4rem 0;
+      color: #aaa;
+
+      &.credits {
+        font-size: 0.8rem;
+        color: #666;
+        margin-top: 1rem;
+      }
+    }
+  }
+}

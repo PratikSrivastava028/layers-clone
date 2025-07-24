@@ -1,0 +1,44 @@
+.gallery-section {
+  padding: 4rem 6%;
+  background-color: #fff;
+
+  h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+    color: #111;
+  }
+
+  .gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+  }
+
+  .review-card {
+    background-color: #f5f5f5;
+    padding: 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+    text-align: center;
+
+    img {
+      width: 80px;
+      height: 80px;
+      object-fit: cover;
+      border-radius: 50%;
+      margin-bottom: 1rem;
+    }
+
+    .review-text {
+      font-size: 1.1rem;
+      margin: 1rem 0;
+      color: #333;
+    }
+
+    .reviewer {
+      font-weight: 600;
+      color: #555;
+    }
+  }
+}

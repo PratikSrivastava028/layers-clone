@@ -1,0 +1,37 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 2rem;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background-color: #000; // or your theme
+  color: #fff;
+
+  .navbar__logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+
+  .navbar__links {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+
+    a {
+      color: white;
+      text-decoration: none;
+      font-size: 1rem;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+
+    .navbar__cart {
+      font-size: 1.4rem;
+      cursor: pointer;
+    }
+  }
+}
